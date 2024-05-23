@@ -1,0 +1,500 @@
+import { StyleSheet } from "react-native";
+
+export const c1Styles = StyleSheet.create({
+  challengeContainer: {
+    // backgroundColor: 'red',
+    height: 140,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    width: '100%',
+  },
+  pathImg: {
+    position: 'absolute',
+    left: '10%',
+    width: '60%',
+    height: '15%',
+    zIndex: 1,
+    top: 0,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    left: '1%',
+    width: '55%',
+    zIndex: 1,
+    height: '25%',
+    top: 5,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: 0,
+    // backgroundColor: 'red',
+    // alignItems: 'center'
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -45,
+    alignItems: 'center',
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 60,
+    height: 60,
+    marginBottom: -45,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 71,
+    height: 30,
+  },
+  secondPath: {},
+  flower: {
+    position: 'absolute',
+    bottom: 5,
+    left: 71,
+    width: 50,
+    height: 100,
+  },
+});
+
+export const c2Styles = StyleSheet.create({
+  challengeContainer: {
+    height: 140,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginBottom: -75,
+    zIndex: -1,
+    width: '100%',
+    alignSelf: 'flex-end',
+  },
+  pathImg: {
+    position: 'absolute',
+    right: '0%',
+    width: '30%',
+    height: '50%',
+    zIndex: 1,
+    top: 34,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    right: '0%',
+    width: '55%',
+    zIndex: 1,
+    height: '22%',
+    top: 5,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 10,
+    // backgroundColor: 'red',
+    // alignItems: 'center'
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -45,
+    alignItems: 'center',
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 80,
+    height: 80,
+    marginBottom: -55,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 60,
+    height: 28,
+  },
+  secondPath: {
+    width: '30%',
+    height: '25%',
+    position: 'absolute',
+    top: -7,
+    right: '20%',
+  },
+  flower: {
+    position: 'absolute',
+    bottom: 10,
+    left: 80,
+    width: 50,
+    height: 100,
+  },
+});
+
+export const c3Styles = StyleSheet.create({
+  challengeContainer: {
+    // backgroundColor: 'red',
+    height: 190,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginBottom: -100,
+    zIndex: -2,
+    width: '100%',
+    alignSelf: 'flex-start',
+  },
+  pathImg: {
+    position: 'absolute',
+    right: '18%',
+    width: '34%',
+    height: '40%',
+    zIndex: 1,
+    top: 30,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    left: '0%',
+    width: '55%',
+    zIndex: 1,
+    height: '18%',
+    top: 12,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: 0,
+    right: '25%',
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -40,
+    alignItems: 'center',
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 60,
+    height: 60,
+    marginBottom: -40,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 60,
+    height: 20,
+  },
+  secondPath: {
+    width: '30%',
+    height: '25%',
+    position: 'absolute',
+    top: -10,
+    left: '45%',
+  },
+  flower: {
+    position: 'absolute',
+    bottom: 5,
+    left: 50,
+    width: 50,
+    height: 100,
+  },
+});
+
+export const c4Styles = StyleSheet.create({
+  challengeContainer: {
+    // backgroundColor: 'red',
+    height: 190,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginBottom: -100,
+    zIndex: -3,
+    width: '100%',
+    alignSelf: 'flex-end',
+  },
+  pathImg: {
+    position: 'absolute',
+    left: '17%',
+    width: '44%',
+    height: '45%',
+    zIndex: 1,
+    top: 22,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    right: '0%',
+    width: '50%',
+    zIndex: 2,
+    height: '18%',
+    top: 6,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: -10,
+    right: '30%',
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -40,
+    alignItems: 'center',
+    marginLeft: -3,
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 60,
+    height: 60,
+    marginBottom: -40,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 60,
+    height: 20,
+  },
+  secondPath: {
+    width: '30%',
+    height: '25%',
+    position: 'absolute',
+    top: -6,
+    right: '25%',
+  },
+  flower: {
+    position: 'absolute',
+    bottom: 5,
+    right: 40,
+    width: 40,
+    height: 60,
+  },
+});
+
+export const c5Styles = StyleSheet.create({
+  challengeContainer: {
+    // backgroundColor: 'red',
+    height: 190,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginBottom: -120,
+    zIndex: -4,
+    width: '100%',
+    alignSelf: 'flex-start',
+  },
+  pathImg: {
+    position: 'absolute',
+    right: '30%',
+    width: '40%',
+    height: '35%',
+    zIndex: 1,
+    top: 22,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    left: '0%',
+    width: '40%',
+    zIndex: 2,
+    height: '15%',
+    top: 8,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: 0,
+    left: '0%',
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -40,
+    alignItems: 'center',
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 60,
+    height: 60,
+    marginBottom: -40,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 60,
+    height: 20,
+  },
+  secondPath: {
+    width: '40%',
+    height: '30%',
+    position: 'absolute',
+    top: -5,
+    left: '55%',
+  },
+  flower: {
+    position: 'absolute',
+    bottom: 5,
+    right: 40,
+    width: 40,
+    height: 60,
+  },
+});
+
+export const c6Styles = StyleSheet.create({
+  challengeContainer: {
+    // backgroundColor: 'red',
+    height: 200,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginBottom: -170,
+    zIndex: -5,
+    width: '100%',
+    alignSelf: 'flex-end',
+  },
+  pathImg: {
+    position: 'absolute',
+    left: '20%',
+    width: '51%',
+    height: '20%',
+    zIndex: 1,
+    top: 15,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    right: '0%',
+    width: '40%',
+    zIndex: 2,
+    height: '15%',
+    top: 2,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: -10,
+    right: '10%',
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -40,
+    alignItems: 'center',
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 60,
+    height: 60,
+    marginBottom: -40,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 60,
+    height: 20,
+  },
+  secondPath: {
+    width: '20%',
+    height: '30%',
+    position: 'absolute',
+    top: -5.5,
+    right: '55%',
+  },
+  flower: {
+    position: 'absolute',
+    bottom: 5,
+    right: 40,
+    width: 40,
+    height: 60,
+  },
+});
+
+export const c7Styles = StyleSheet.create({
+  challengeContainer: {
+    // backgroundColor: 'red',
+    height: 150,
+    flexDirection: 'row',
+    justifyContent: 'flex-end',
+    marginBottom: -100,
+    zIndex: -6,
+    width: '100%',
+    alignSelf: 'flex-start',
+  },
+  pathImg: {
+    position: 'absolute',
+    right: '35%',
+    width: '30%',
+    height: '30%',
+    zIndex: 1,
+    top: 30,
+  },
+  mainLeafContainer: {
+    position: 'absolute',
+    right: '25%',
+    width: '50%',
+    zIndex: 2,
+    height: '18%',
+    top: 2,
+  },
+  rockContainer: {
+    position: 'absolute',
+    bottom: -0,
+    right: 5,
+  },
+  alignCenter: {alignItems: 'center'},
+  challengeNameContainer: {
+    zIndex: 9999,
+    marginBottom: -40,
+    alignItems: 'center',
+  },
+  starimg: {
+    width: 35,
+    height: 35,
+  },
+  challengeTxt: {
+    fontWeight: '500',
+    fontSize: 13,
+    marginTop: 10,
+  },
+  lockImg: {
+    width: 60,
+    height: 60,
+    marginBottom: -40,
+    zIndex: 999,
+  },
+  rockImg: {
+    width: 60,
+    height: 20,
+  },
+  secondPath: {},
+  flower: {
+    position: 'absolute',
+    bottom: 0,
+    right: '40%',
+    width: 40,
+    height: 80,
+  },
+});

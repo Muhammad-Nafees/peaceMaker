@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>799194273197-m9vdj1sk7dmk68opmsckb7ei7uuoqqj4.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.799194273197-m9vdj1sk7dmk68opmsckb7ei7uuoqqj4</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>799194273197-j6f9grf6c5mktcntaie6th7bf88o8l4n.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCZhk03m8FnD9Dd4NhQk9Vb7Jxrjnovims</string>
+	<key>GCM_SENDER_ID</key>
+	<string>799194273197</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.peacemaker.health.app</string>
+	<key>PROJECT_ID</key>
+	<string>peacemaker-81001</string>
+	<key>STORAGE_BUCKET</key>
+	<string>peacemaker-81001.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:799194273197:ios:790d4ba567c44fe359bd24</string>
+</dict>
+</plist>

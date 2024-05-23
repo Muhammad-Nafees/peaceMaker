@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb253076394397593</string>
+			</array>
+		</dict>
+	</array>
+	<key>FacebookAppID</key>
+	<string>253076394397593</string>
+	<key>FacebookClientToken</key>
+	<string>bc04b8dcebaf125c9c20a496aea1cc7a</string>
+	<key>FacebookDisplayName</key>
+	<string>Peacemaker</string>
+	
+
+
+
+
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>peacemaker</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-share-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>We need your permission to access your Apple Music library for a better music experience.</string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Allow us to use Bluetooth for seamless connectivity with nearby devices at all times.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Enable Bluetooth to connect with nearby accessories and peripherals when needed.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Grant us access to your calendar to schedule and manage events more efficiently.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>We need access to your camera for capturing and sharing moments. Allow camera access?</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Enable access to your contacts to easily connect with friends and family through our app.</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Allow Face ID for a quick and secure way to unlock and authenticate in our app.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>For better location-based services, grant access to your location at all times and when using the app.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow access to your location only when using the app for location-specific features.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Enable microphone access to record audio and provide voice-based features in our app.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>We request access to motion data for enhancing the user experience with motion-based features.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Allow us to save photos to your library for easier sharing and organization.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Access your photo library to share and store photos within the app.</string>
+	<key>NSRemindersUsageDescription</key>
+	<string>Allow us to access your reminders so you can manage your tasks and to-dos more effectively.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>Enable Siri integration for a convenient and voice-activated experience within our app.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>We need access to speech recognition for voice commands and improved accessibility.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Help us enhance your experience by allowing user tracking for personalized recommendations and content.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>Fontisto.ttf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>GeneralSans-Bold.otf</string>
+		<string>GeneralSans-Extralight.otf</string>
+		<string>GeneralSans-Italic.otf</string>
+		<string>GeneralSans-Light.otf</string>
+		<string>GeneralSans-Medium.otf</string>
+		<string>GeneralSans-Regular.otf</string>
+		<string>GeneralSans-Semibold.otf</string>
+		<string>Satoshi-Black.otf</string>
+		<string>Satoshi-Bold.otf</string>
+		<string>Satoshi-Italic.otf</string>
+		<string>Satoshi-Light.otf</string>
+		<string>Satoshi-Medium.otf</string>
+		<string>Satoshi-Regular.otf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>fetch</string>
+		<string>processing</string>
+		<string>remote-notification</string>
+		<string>voip</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string></string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	</array>
+</dict>
+</plist>

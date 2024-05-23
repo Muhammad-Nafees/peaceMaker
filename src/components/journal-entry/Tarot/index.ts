@@ -1,0 +1,1 @@
+export { Tarot } from "./Tarot";

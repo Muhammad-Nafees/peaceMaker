@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "799194273197",
+    "project_id": "peacemaker-81001",
+    "storage_bucket": "peacemaker-81001.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799194273197:android:1451ab3250d9d01f59bd24",
+        "android_client_info": {
+          "package_name": "com.softwareAlliance.peaceMaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799194273197-j6f9grf6c5mktcntaie6th7bf88o8l4n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwareAlliance.peaceMaker",
+            "certificate_hash": "a3d14eee4616865f3883e008af5a1f3db8152262"
+          }
+        },
+        {
+          "client_id": "799194273197-pmhmijo5jeik2bg75soft5k8ok4btluh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.softwareAlliance.peaceMaker",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "799194273197-j3gi9umaal7ao0b2lhhfc4d1vvmvg7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoQH4pdrX59zY5xcJrAUEgEqF5r4qRHes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799194273197-isc5oke0qqmo8v0f3d229qt14iehsibe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "799194273197-m9vdj1sk7dmk68opmsckb7ei7uuoqqj4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.peacemaker.health.app"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:799194273197:android:aead8283ecc3a71159bd24",
+        "android_client_info": {
+          "package_name": "com.softwarealliance.peacemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "799194273197-j3gi9umaal7ao0b2lhhfc4d1vvmvg7ch.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoQH4pdrX59zY5xcJrAUEgEqF5r4qRHes"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "799194273197-isc5oke0qqmo8v0f3d229qt14iehsibe.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "799194273197-m9vdj1sk7dmk68opmsckb7ei7uuoqqj4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.peacemaker.health.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

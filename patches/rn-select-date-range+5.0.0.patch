@@ -1,0 +1,90 @@
+diff --git a/node_modules/rn-select-date-range/lib/cjs/Button.d.ts b/node_modules/rn-select-date-range/lib/cjs/Button.d.ts
+index c759373..f37ea5d 100644
+--- a/node_modules/rn-select-date-range/lib/cjs/Button.d.ts
++++ b/node_modules/rn-select-date-range/lib/cjs/Button.d.ts
+@@ -5,6 +5,7 @@ interface IProps {
+     align?: "center" | "auto" | "left" | "right" | "justify" | undefined;
+     disabled: boolean;
+     font?: string;
++    style?: any;
+ }
+-declare const _default: ({ label, onPress, align, disabled, font, }: IProps) => JSX.Element;
++declare const _default: ({ label, onPress, align, disabled, font, style }: IProps) => JSX.Element;
+ export default _default;
+diff --git a/node_modules/rn-select-date-range/lib/cjs/Button.js b/node_modules/rn-select-date-range/lib/cjs/Button.js
+index b0a48f3..00fc66b 100644
+--- a/node_modules/rn-select-date-range/lib/cjs/Button.js
++++ b/node_modules/rn-select-date-range/lib/cjs/Button.js
+@@ -11,6 +11,7 @@ exports.default = (function (_a) {
+         textAlign: align,
+         opacity: disabled ? 0.2 : 1,
+         fontFamily: font,
++        color: "black"
+     };
+     return (react_1.default.createElement(react_native_1.TouchableOpacity, { disabled: disabled, style: styles.buttonContainer, onPress: function () { return onPress(); } },
+         react_1.default.createElement(react_native_1.Text, { style: textStyle }, label)));
+diff --git a/node_modules/rn-select-date-range/lib/cjs/DateRangePicker.js b/node_modules/rn-select-date-range/lib/cjs/DateRangePicker.js
+index a60aeca..c3a6914 100644
+--- a/node_modules/rn-select-date-range/lib/cjs/DateRangePicker.js
++++ b/node_modules/rn-select-date-range/lib/cjs/DateRangePicker.js
+@@ -115,7 +115,7 @@ var DateRangePicker = function (_a) {
+             react_1.default.createElement(react_native_1.Text, { style: __assign(__assign({}, styles.title), { fontFamily: font }) }, selectedDate.format("YYYY")),
+             react_1.default.createElement(Button_1.default, { font: font, disabled: maxDate ? nextYear.isAfter(maxDate, "months") : false, label: "".concat(nextYear.format("YYYY"), " >"), onPress: function () { return setSelectedDate(nextYear); }, align: "right" })),
+         react_1.default.createElement(react_native_1.View, { style: styles.titleRow },
+-            react_1.default.createElement(Button_1.default, { font: font, disabled: minDate ? lastMonth.isBefore(minDate, "months") : false, label: "< ".concat(lastMonth.locale(ln).format("MMM")), onPress: function () { return setSelectedDate(lastMonth); } }),
++            react_1.default.createElement(Button_1.default, { style: styles.cBlack, font: font, disabled: minDate ? lastMonth.isBefore(minDate, "months") : false, label: "< ".concat(lastMonth.locale(ln).format("MMM")), onPress: function () { return setSelectedDate(lastMonth); } }),
+             react_1.default.createElement(react_native_1.Text, { style: __assign(__assign({}, styles.title), { fontFamily: font }) }, selectedDate.locale(ln).format("MMMM")),
+             react_1.default.createElement(Button_1.default, { font: font, disabled: maxDate ? nextMonth.isAfter(maxDate, "months") : false, label: "".concat(nextMonth.locale(ln).format("MMM"), " >"), onPress: function () { return setSelectedDate(nextMonth); }, align: "right" })),
+         react_1.default.createElement(Month_1.default, { font: font, selectedDate: selectedDate, onSelectDate: onSelectDate, firstDate: firstDate, secondDate: secondDate, maxDate: maxDate, minDate: minDate, selectedDateContainerStyle: selectedDateContainerStyle, selectedDateStyle: selectedDateStyle }),
+@@ -131,17 +131,19 @@ exports.default = DateRangePicker;
+ var styles = react_native_1.StyleSheet.create({
+     titleRow: {
+         flexDirection: "row",
+-        justifyContent: "space-between",
++        // justifyContent: "space-between",
+         alignItems: "center",
+         backgroundColor: "#EEE",
+         marginBottom: 5,
+         padding: 5,
+         borderRadius: 5,
+     },
++    cBlack: {color: "black",},
+     title: {
+         fontSize: 20,
+         flex: 1,
+         textAlign: "center",
++        color: "grey",
+     },
+     actionBtn: {
+         paddingVertical: 3,
+diff --git a/node_modules/rn-select-date-range/lib/cjs/Month.js b/node_modules/rn-select-date-range/lib/cjs/Month.js
+index 6aa0bf7..3ff861b 100644
+--- a/node_modules/rn-select-date-range/lib/cjs/Month.js
++++ b/node_modules/rn-select-date-range/lib/cjs/Month.js
+@@ -139,5 +139,6 @@ var styles = react_native_1.StyleSheet.create({
+     dayNameStyle: {
+         fontSize: 11,
+         textAlign: "center",
++        color: 'black'
+     },
+ });
+diff --git a/node_modules/rn-select-date-range/lib/esm/DateRangePicker.js b/node_modules/rn-select-date-range/lib/esm/DateRangePicker.js
+index 4961605..1efe710 100644
+--- a/node_modules/rn-select-date-range/lib/esm/DateRangePicker.js
++++ b/node_modules/rn-select-date-range/lib/esm/DateRangePicker.js
+@@ -1,5 +1,5 @@
+ var __assign = (this && this.__assign) || function () {
+-    __assign = Object.assign || function(t) {
++    __assign = Object.assign || function (t) {
+         for (var s, i = 1, n = arguments.length; i < n; i++) {
+             s = arguments[i];
+             for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+@@ -103,7 +103,7 @@ export default DateRangePicker;
+ var styles = StyleSheet.create({
+     titleRow: {
+         flexDirection: "row",
+-        justifyContent: "space-between",
++        // justifyContent: "space-between",
+         alignItems: "center",
+         backgroundColor: "#EEE",
+         marginBottom: 5,
